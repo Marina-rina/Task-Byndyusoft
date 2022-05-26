@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32428.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task Byndyusoft", "Test task Byndyusoft\Task Byndyusoft.csproj", "{06F635F5-1408-4520-983E-7C6698B51D21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task Byndyusoft.Tests", "Task Byndyusoft.Tests\Task Byndyusoft.Tests.csproj", "{6FDA0320-0725-4468-8E99-4F69815187FE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{06F635F5-1408-4520-983E-7C6698B51D21} = {06F635F5-1408-4520-983E-7C6698B51D21}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06F635F5-1408-4520-983E-7C6698B51D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F635F5-1408-4520-983E-7C6698B51D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F635F5-1408-4520-983E-7C6698B51D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F635F5-1408-4520-983E-7C6698B51D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDA0320-0725-4468-8E99-4F69815187FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDA0320-0725-4468-8E99-4F69815187FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDA0320-0725-4468-8E99-4F69815187FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDA0320-0725-4468-8E99-4F69815187FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC1091C6-17EB-423E-B144-97FEFB7D7406}
+	EndGlobalSection
+EndGlobal
