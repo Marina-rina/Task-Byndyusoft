@@ -6,7 +6,12 @@ namespace Test_task_Byndyusoft
 {
     public class Program
     {
-
+        /// <summary>
+        /// Напишите функцию, на вход которой приходит массив чисел. Функция возвращает сумму двух минимальных элементов массива.
+        /// Например, если дан массив[4, 0, 3, 19, 492, -10, 1], то результатом будет -10, потому что два минимальных числа -10 и 0, а их сумма -10.
+        /// Напишите минимум 3 модульных теста на эту функцию.
+        /// HINT: учти, что массив может быть пустым, или без цифр или состоять из 100 млн.элементов, поэтому надо учесть разные граничные условия.
+        /// </summary>
         public static int SumOfTwoMinimalElements(int[] arr)
         {
             if (arr.Length == 0)
@@ -29,31 +34,8 @@ namespace Test_task_Byndyusoft
         }
         static void Main(string[] args)
         {
-            Stopwatch stopWatch = new Stopwatch();
-            stopWatch.Start();
-
-            int[] arr = Enumerable.Range(0, 100000000).ToArray();
-            //int[] arr = Enumerable.Range(0, 100000000).ToArray();
-
-            stopWatch.Stop();
-            TimeSpan ts = stopWatch.Elapsed;
-            string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-                        ts.Hours, ts.Minutes, ts.Seconds,
-                        ts.Milliseconds / 10);
-
-            stopWatch = new Stopwatch();
-            stopWatch.Start();
-            //Console.WriteLine(SumOfTwoMinimalElements(new int[] {4, 0, 3, 19, 492, -10, 1 }));
-            Console.WriteLine(SumOfTwoMinimalElements(arr));
-            stopWatch.Stop();
-            ts = stopWatch.Elapsed;
-            elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-                        ts.Hours, ts.Minutes, ts.Seconds,
-                        ts.Milliseconds / 10);
-            Console.WriteLine("SumOfTwoMinimalElements " + elapsedTime);
-
+            Console.WriteLine(SumOfTwoMinimalElements(new int[] {4, 0, 3, 19, 492, -10, 1 }));
             Console.ReadKey();
-
         }
 
     }

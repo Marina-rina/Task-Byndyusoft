@@ -5,7 +5,7 @@ using System.Linq;
 namespace Task_Byndyusoft.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class SumOfTwoMinimalElementsTests
     {
         [TestMethod]
         public void Sum_0PlusMinus10_Minus10Returned()
