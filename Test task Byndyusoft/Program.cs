@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Test_task_Byndyusoft
+namespace Task_Byndyusoft
 {
     public class Program
     {
