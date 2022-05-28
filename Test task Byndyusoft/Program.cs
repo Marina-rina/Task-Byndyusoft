@@ -32,8 +32,7 @@ namespace Task_Byndyusoft
         }
         static void Main(string[] args)
         {
-            Console.WriteLine(SumOfTwoMinimalElements(new int[] {4, 0, 3, 19, 492, -10, 1 }));
-            Console.ReadKey();
+
         }
 
     }
